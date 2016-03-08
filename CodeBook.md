@@ -1,5 +1,5 @@
-# Code Book for the tidy data set
-The purpose of this project is to prepare the below data set for further analysis.
+# Code Book
+
 Source of the raw data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 The raw data is made of tables in seperate files, from which one contains 561 variables.
