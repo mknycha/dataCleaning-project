@@ -1,11 +1,11 @@
-## Code Book for the tidy data set
+# Code Book for the tidy data set
 The purpose of this project is to prepare the below data set for further analysis.
 Source of the raw data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 The raw data is made of tables in seperate files, from which one contains 561 variables.
 In order for this script to work, unzipped folder from this source must be located in the R workspace.
 
-#How does it work?
+##How does it work?
 The script takes several steps in order to clean the data:
 0. Load all the necessary data:
     -trainData (UCI HAR Dataset/train/X_train.txt)
@@ -30,7 +30,7 @@ The script takes several steps in order to clean the data:
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
     Script melts the data so that there would be just four columns: subject, activity, measurement, and value related to particular measurement.
     Then, it creates a summary by calculating mean of each measurement for each activity and each subject (using ddply function)
-#What is the output?
+##What is the output?
 The output after running script "run_analysis.R" from the repository is "tidyData" table.
 There are four columns in it:
 - subject - identification number of a subject taking part in the research,
